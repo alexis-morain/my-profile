@@ -1,0 +1,139 @@
+/* Colors and fonts */
+
+
+body  {
+  background-color: #F9F7F7;
+  color: #112D4E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h1,h2,h3,a {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+
+
+}
+
+h1 {
+  color: #3F72AF;
+  font-size: 24px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+}
+
+h2 {
+  color: #112D4E;
+  font-size: 20px;
+  letter-spacing: 1px;
+
+
+}
+
+a{
+  text-decoration: underline;
+  color: #3F72AF;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #112D4E;
+}
+
+
+
+
+/* Custom design with class */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 50px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px;
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 30%;
+}
+
+.btn-blue{
+  color: white;
+  background-color: #3F72AF;
+  padding: 15px 20px;
+  margin: 80px auto;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.list-inline i{
+  font-size: 40px;
+  color: rgb(10, 10, 10);
+}
+
+.list-inline i:hover{
+  color: rgb(140, 140, 140);
+}
+
+
+/* Custom design with id */
+
+#introduction p{
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
